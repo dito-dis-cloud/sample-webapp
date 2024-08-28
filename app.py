@@ -133,4 +133,4 @@ if __name__ == "__main__":
     engine = db.DataBase()
     with engine.con:
         # ポート番号はここで変更可能
-        run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)) , reloader=True , debug = True)
+        run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)) , reloader=True , debug = True)
