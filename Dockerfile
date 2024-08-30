@@ -20,4 +20,4 @@ RUN \
   fi
 
 # Specify the command to run on container start
-CMD [ "python3", "./app.py" ]
+CMD [ "python3", "app.py" ]
